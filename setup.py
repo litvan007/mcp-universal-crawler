@@ -10,5 +10,7 @@ setup(
         "mcp>=1.2.0",
         "requests>=2.31.0",
         "beautifulsoup4>=4.12.0",
+        "pypdf>=5.0.0",
+        "python-docx>=1.1.0",
     ],
 )

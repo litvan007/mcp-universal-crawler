@@ -11,8 +11,16 @@ MCP server that exposes Futurepedia crawling logic as tools for assistants.
 
 ## MCP tools
 
+Futurepedia-specific:
 - `futurepedia_random_tool()` — get one random tool with parsed metadata
 - `futurepedia_tools(count=3)` — get several random tools in one call
+
+Universal crawler:
+- `crawl_url(url, timeout_sec=30)` — parse generic webpage (text + title + links)
+- `crawl_many(urls, timeout_sec=30)` — batch crawl up to 20 URLs
+- `crawl_sitemap(sitemap_url, limit=20, timeout_sec=30)` — extract URLs from sitemap.xml
+- `crawl_file(source, timeout_sec=30)` — parse local/remote txt/md/html/pdf/docx
+- `extract_structured(url, schema_json, timeout_sec=30)` — CSS-selector extraction by schema
 
 ## Quick start
 
