@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mcp-futurepedia-crawler",
+    name="mcp-universal-crawler",
     version="0.1.0",
     description="MCP server exposing Futurepedia crawler tools",
     package_dir={"": "src"},

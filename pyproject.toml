@@ -1,5 +1,5 @@
 [project]
-name = "mcp-futurepedia-crawler"
+name = "mcp-universal-crawler"
 version = "0.1.0"
 description = "MCP server exposing Futurepedia crawler tools"
 readme = "README.md"

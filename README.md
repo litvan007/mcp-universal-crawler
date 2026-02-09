@@ -1,4 +1,4 @@
-# mcp-futurepedia-crawler
+# mcp-universal-crawler
 
 MCP server that exposes Futurepedia crawling logic as tools for assistants.
 
@@ -41,7 +41,7 @@ The server runs over stdio (default MCP mode).
     "futurepedia": {
       "command": "python",
       "args": ["-m", "futurepedia_mcp.server"],
-      "cwd": "/absolute/path/to/mcp-futurepedia-crawler"
+      "cwd": "/absolute/path/to/mcp-universal-crawler"
     }
   }
 }

@@ -16,7 +16,7 @@ from mcp.server.fastmcp import FastMCP
 FUTUREPEDIA_SEARCH_API_URL = "https://www.futurepedia.io/api/search"
 BASE_TOOL_URL = "https://www.futurepedia.io/tool/"
 
-mcp = FastMCP("futurepedia-crawler")
+mcp = FastMCP("universal-crawler")
 
 
 def _session() -> requests.Session:
